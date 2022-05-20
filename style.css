@@ -78,7 +78,19 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: rotate 1s linear infinite reverse;
 }
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
 .ex-11-icon {
     font-size: 60px;
 }
