@@ -134,3 +134,25 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white {animation: top-side-move 1s linear 2 alternate;}
+.ex-12-button:hover .ex-12-bottom-white {animation: bottom-side-move 1s linear 2 alternate;}
+
+@keyframes top-side-move {
+    from{
+        left: 10%;
+    }
+    to{
+        left: calc(100% - 60px);
+    }
+}
+
+@keyframes bottom-side-move {
+    from{
+        right: 20%;
+    }
+    to{
+        right: calc(100% - 60px);
+    }
+}
+
