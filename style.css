@@ -94,6 +94,17 @@
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {animation: weird-rotate 1s linear;}
+
+@keyframes weird-rotate {
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(100deg);}
+    50%{transform: rotate(200deg);}
+    75%{transform: rotate(300deg);}
+    100%{transform: rotate(0deg);}
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
